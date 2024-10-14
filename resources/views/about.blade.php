@@ -22,7 +22,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
  
     <div class="container"> 
 <h1 class="text-center mt-5">ABOUT ME</h1> 
-<p class="text-center">This page contains information about the site and its creator.</p> 
+<p class="text-center">My name Ari Purnama Aji,im live in Bandar Lampung.</p> 
 </div> 
 <!-- Bootstrap JS --> 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
