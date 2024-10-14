@@ -3,8 +3,7 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>About Us</title> 
-    <!-- Bootstrap CSS --> 
+    <title>User Profile</title> 
     <link rel="stylesheet" 
 href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
 </head> 
@@ -14,19 +13,22 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <div class="collapse navbar-collapse"> 
             <ul class="navbar-nav ml-auto"> 
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li> 
-                <li class="nav-item"><a class="nav-link" href="/about">About</a></li> 
-                <li class="nav-item"><a class="nav-link" href="/portfolio">Portfolio</a></li> 
+                <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li> 
             </ul> 
         </div> 
     </nav> 
  
+    <!-- Profile Content --> 
     <div class="container"> 
-<h1 class="text-center mt-5">ABOUT ME</h1> 
-<p class="text-center">My name Ari Purnama Aji,im live in Bandar Lampung.</p> 
+        <h1 class="text-center mt-5">User Profile</h1> 
+        <div class="card mt-4"> 
+            <div class="card-body"> 
+                <h5 class="card-title">Username: johndoe</h5> 
+                <p class="card-text">Email: johndoe@example.com</p> 
+<img src="https://via.placeholder.com/150" alt="Profile Picture" class="img-fluid rounded
+circle"> 
 </div> 
-<!-- Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
-<script 
-src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script> 
+</div> 
+</div> 
 </body> 
 </html>
