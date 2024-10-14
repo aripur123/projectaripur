@@ -26,4 +26,6 @@ Route::get('/portfolio', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-
+Route::get('/profile', function () { 
+    return view('profile'); 
+    });
